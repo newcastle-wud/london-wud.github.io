@@ -2,10 +2,15 @@ body {
 	margin: 0;
 }
 
+main {
+  margin: 0 auto;
+  max-width: 700px;
+  text-align: center;
+}
+
 h1, h2 {
 	color: #48277c;
 	font-family: 'Montserrat', sans-serif;
-	text-align: center;
 }
 
 .hero {
@@ -16,6 +21,7 @@ h1, h2 {
 
 h1 {
 	margin: auto auto 35px;
+  text-align: center;
 }
 
 h2 {
@@ -26,7 +32,6 @@ p {
 	font-family: 'Open Sans', sans-serif;
 	max-width: 700px;
 	margin: 25px auto;
-	text-align: center;
 }
 
 .getting-here {
@@ -38,14 +43,14 @@ p {
 }
 
 img {
-	display: inline-block;
-	margin-left: 35%;
+	display: block;
+  margin: 0 auto;
 }
 
 a {
+  border-bottom: 1px solid black;
 	color: black;
 	text-decoration: none;
-	text-align: center;
 }
 
 .nav {
@@ -54,6 +59,7 @@ a {
 }
 
 .nav-item {
+  color: black;
 	display: inline-block;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
@@ -65,5 +71,21 @@ a {
 li {
 	font-family: 'Open Sans', sans-serif;
 	list-style: none;
-	text-align: center;
+}
+
+.address {
+  float: left;
+  width: 50%;
+}
+
+.address p:first-child {
+  margin-top: 0;
+}
+
+.address span {
+  display: block;
+}
+
+.location {
+  width: 50%;
 }
