@@ -1,11 +1,6 @@
 body {
+  font-family: 'Open Sans', sans-serif;
 	margin: 0;
-}
-
-main {
-  margin: 0 auto;
-  max-width: 700px;
-  text-align: center;
 }
 
 h1, h2 {
@@ -19,27 +14,32 @@ h1, h2 {
 	padding-top: 55px;
 }
 
+.center {
+  margin: 0 auto;
+  max-width: 700px;
+}
+
 h1 {
-	margin: auto auto 35px;
+	margin: 0 auto 35px;
   text-align: center;
 }
 
 h2 {
-	margin-top: 50px;
+  font-size: 1.8em;
 }
 
 p {
-	font-family: 'Open Sans', sans-serif;
-	max-width: 700px;
+  font-size: 1.1em;
 	margin: 25px auto;
 }
 
+/*
 .getting-here {
-	background-image: url("assets/images/city-university-building.jpg");
-}
+	background-image: url("../images/city-university-building.jpg");
+}*/
 
 .intro {
-	font-size: 1.2em;
+	font-size: 1.6em;
 }
 
 img {
@@ -68,14 +68,50 @@ a {
 	text-align: center;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 li {
 	font-family: 'Open Sans', sans-serif;
 	list-style: none;
 }
 
-.address {
+figcaption {
+  font-size: .9em;
+  padding: 6px 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+section {
+  min-height: 200px;
+  padding: 40px;
+}
+
+section:nth-child(2n) {
+  background-color: #f5f5f5;
+}
+
+.row {
+  overflow: hidden;
+  padding: 10px 0;
+}
+
+.col-50 {
+  box-sizing: border-box;
   float: left;
+  margin: 0;
   width: 50%;
+}
+
+.address {
+  margin-top: 10px;
+  padding: 40px;
+  text-align: left;
 }
 
 .address p:first-child {
