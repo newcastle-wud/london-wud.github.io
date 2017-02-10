@@ -10,9 +10,10 @@ h1, h2 {
 
 .header {
   background-image: url("../images/hero-background-new.png");
+  background-repeat: no-repeat;
   height: 250px;
   padding: 40px;
-  background-repeat: no-repeat;
+  text-align: center;
 }
 
 .hero {
@@ -28,7 +29,6 @@ h1, h2 {
 
 h1 {
 /*	margin: 0 auto 35px;*/
-  text-align: center;
   font-size: 2.5em;
 }
 
@@ -72,8 +72,19 @@ a {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 	list-style: none;
-	padding: 0 15px;
+  margin: 15px;
 	text-align: center;
+}
+
+.nav-item a {
+  display: inline-block;
+  padding: 15px; 
+}
+
+@media (min-width: 700px) {
+  .nav-item a {
+  padding: 0;
+}
 }
 
 .nav-intro {
@@ -165,8 +176,13 @@ footer {
 
 .logo {
  /* align-content: center;*/
-  margin: 40px auto;
   /*margin-top: -10px;
   margin-bottom: 30px; */
   width: 280px;
+}
+
+.logo-link {
+  border: 0;
+  display: inline-block;
+  margin-top: 40px;
 }
