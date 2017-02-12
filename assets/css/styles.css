@@ -74,7 +74,10 @@ a:hover {
 }*/
 
 .intro {
+  color: black;
+  font-family: 'Open Sans', sans-serif;
 	font-size: 1.6em;
+  font-weight: normal;
 }
 
 img {
