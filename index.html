@@ -2,14 +2,22 @@
 <html class="no-js" lang="en">
   <head>
   	<meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   	<title>What Users Do - Lab testing</title>
   	<link rel="stylesheet" href="assets/css/styles.css" />
-  	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700|Material+Icons" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#48277c">
+    <meta name="theme-color" content="#ffffff">
   </head>
   <body>
   	<div class="header">
       <a target="_blank" class="logo-link" href="https://whatusersdo.com"><img class="logo" src="assets/images/WUD_logo.png"></a>
-  		<h1>Lab testing - February 2017</h1>
+  		<h1>Lab testing <span>February 2017</span></h1>
     </div>
     <div class="hero">
       <p class="nav-intro">On this page:</p>
@@ -33,7 +41,7 @@
     		<p>Your session will be held at the City University Interaction Lab:</p>
         <div class="row">
           <figure class="col-50 location">
-            <img src="assets/images/city.jpg" />
+            <img src="assets/images/city-university.png" />
             <figcaption>The College Building</figcaption>
           </figure>
           <div class="col-50 address">
@@ -46,23 +54,56 @@
                 <span class="postal-code">EC1V 4PB</span>
               </p>
             </div>
-          <a class= "map-link" target="_blank" href="https://www.google.com/maps/place/City,+University+of+London+-+College+Building/@51.527337,-0.1059101,17z/data=!3m1!4b1!4m5!3m4!1s0x48761b5ac253ae57:0x7bac0df7e2bf2009!8m2!3d51.527337!4d-0.1037214?hl=en-GB">Google map</a>
+          <i class="material-icons map">location_on</i><a class= "map-link" target="_blank" href="https://www.google.com/maps/place/City,+University+of+London+-+College+Building/@51.527337,-0.1059101,17z/data=!3m1!4b1!4m5!3m4!1s0x48761b5ac253ae57:0x7bac0df7e2bf2009!8m2!3d51.527337!4d-0.1037214?hl=en-GB">Google map</a>
           </div>
         </div>
-    		<p>If you have trouble finding the lab on the day, please call 07xxxxxxxxx and ask for Alex</p>
+        <div>
+          <h3>Nearest tube stations</h3>
+          <div class="nearest-tube">
+            <div class="nearest-tube__tube">
+              <div class="tube-icons">
+                <img class="tube" src="assets/images/tube.svg" />
+              </div>
+              <p>From <strong>Angel</strong> station <br>(Northern Line, City/Bank Branch)<br>10 min walk</p>
+            </div>
+            <ul class="directions">
+              <li>Turn left out of the tube station, and head south down St. John Street (sign-posted towards Saddler's Wells theatre).</li>
+              <li>Go straight over the busy traffic-light junction and continue further down St. John Street for about 10minutes.</li>
+              <li>You will find City University entrance on the left side.</li>
+            </ul>
+            <i class="material-icons map">location_on</i><a href="https://www.google.co.uk/maps/dir/Angel+Station,+Islington+High+Street,+London/City,+University+of+London+-+College+Building,+City,+University+of,+272-278+St+John+St,+London+EC1V+4PB/@51.5298951,-0.1091607,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x48761b4332ecac5b:0xd4028cc7ead6e5ce!2m2!1d-0.1058732!2d51.5327443!1m5!1m1!1s0x48761b5ac253ae57:0x7bac0df7e2bf2009!2m2!1d-0.1037214!2d51.527337!3e2?hl=en" target="_blank">Google map from Angel station</a>
+          </div>
+          <div class="nearest-tube">
+            <div class="nearest-tube__tube">
+              <div class="tube-icons">
+                <img class="tube" src="assets/images/tube.svg" />
+                <img class="tube" src="assets/images/rail.svg" />
+              </div>
+              <p>From <strong>Farringdon</strong> station <br>(Circle, Hammersmith and City lines, Thameslink Rail)<br>10 - 15 min walk</p>
+            </div
+            <ul class="directions">
+              <li>On exiting turn left and immediately left again into Turnmill Street.</li>
+              <li>Walk right up to the main junction with Clerkenwell Road. Turn right and walk until you come to the junction with St John Street.</li>
+              <li>Turn Left into St John Street and walk up for about five minutes.</li>
+              <li>You will find City University entrance on your right side.</li>
+            </ul>
+            <i class="material-icons map">location_on</i><a href="https://www.google.co.uk/maps/dir/Farringdon/City,+University+of+London+-+College+Building,+City,+University+of,+272-278+St+John+St,+London+EC1V+4PB/@51.523581,-0.1086443,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x48761b5202648165:0xd4a905fcc599c405!2m2!1d-0.1048177!2d51.5202076!1m5!1m1!1s0x48761b5ac253ae57:0x7bac0df7e2bf2009!2m2!1d-0.1037214!2d51.527337!3e2?hl=en" target="_blank">Google map from Farringdon station</a>
+          </div>
+        </div>
+    		<p class="help">If you have trouble finding the lab on the day, please call <a class="tel" href="tel:07792672090">07792&nbsp;672090</a> and ask for Alex</p>
         </div>
     	</section>
       <section id="the-day">
         <div class="center">
       	<h2>What will happen</h2>
       	<p class="intro">On the day:</p>
-      	<ul>
-      		<li>- You'll arrive at the <a href="#getting-here">College Building</a> and let reception know you're here.</li>
-      		<li>- One of our research team will come down and meet you, and take you through some forms and information about the day.</li>
-      		<li>- You'll be taken through to the lab to meet the researcher running your session. (Don't worry, they don't bite!)</li>
-          <li>- The researcher will show you a website and ask you to carry out some tasks. It'll be just like when you take the tests at home, but more of a conversation instead of reading instructions from the screen.</li>
+      	<ul class="icon-list">
+      		<li class="icon-list__item"><i class="material-icons">location_on</i> You'll arrive at the <a href="#getting-here">College Building</a> and let reception know you're here to meet with Alexander Darlington.</li>
+      		<li class="icon-list__item"><i class="material-icons">mode_edit</i> One of our research team will come down and meet you, and take you through some forms and information about the day.</li>
+      		<li class="icon-list__item"><i class="material-icons">people</i> You'll be taken through to the lab to meet the researcher running your session. (Don't worry, they don't bite!)</li>
+          <li class="icon-list__item"><i class="material-icons">laptop_mac</i> The researcher will show you a website and ask you to carry out some tasks. It'll be just like when you take the tests at home, but more of a conversation instead of reading instructions from the screen.</li>
+          <li class="icon-list__item"><i class="material-icons">done</i>That's it! Once your session is over, you'll be given some information to take away, and your payment will be processed as usual.</li>
       	</ul>
-      	<p>That's it! Once your session is over, you'll be given some information to take away, and your payment will be processed as usual.</p>
         </div>
       </section>
       <section id="cant-make-it">
@@ -71,7 +112,7 @@
       	 <p class="intro">Plans change, and unexpected things come up, so you might need to let us know you can't make it.</p>
       	 <p>It's not a problem if this happens, but please let us know as soon as possible so that we can find someone to come in instead.</p>
       	 <p>If you know <strong>more than 24 hours beforehand</strong>, then please email <a href="mailto:users@whatusersdo.com">users@whatusersdo.com</a>.</p>
-         <p>If something happens <strong>on the day</strong>, then please call Alex on  07xxxxxxxxx.</p>
+         <p>If something happens <strong>on the day</strong>, then please call Alex on <a class="tel" href="tel:07792672090">07792&nbsp;672090</a>.</p>
         </div>
       </section>
       <section id="contact">
